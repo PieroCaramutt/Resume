@@ -1,0 +1,50 @@
+body {
+	background: linear-gradient(-45deg, #989889, #b0b0a4, #d4d4cd, #e0e0db);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+table {
+    border-collapse: collapse;
+   }
+
+.ps-15per{
+    margin-left: 25%;
+}
+
+table, tr, th, td {
+    padding: 5px;
+    margin: auto;
+    border: none !important;
+  }
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.top{
+    position: relative;
+    left: -50;
+    
+}
+
+.topImg{
+    position:relative;
+    top: 40px;
+    left: -100px;
+}

@@ -1,0 +1,74 @@
+html{
+	scroll-behavior: smooth;
+}
+
+.mt-10p{  /*10p stands for 10 percent or 10%*/
+	margin-top: 10%;
+}
+
+.d-block{
+    border-radius: 25px;
+}
+
+body {
+	background: linear-gradient(-45deg, #989889, #b0b0a4, #d4d4cd, #e0e0db);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+table {
+    border-collapse: collapse;
+   }
+
+.ps-26per{
+    margin-left: 26%;
+}
+
+th, td {
+    padding: 10px;
+    padding-right: 200px;
+  }
+
+td:first-child, th:first-child {
+    border-left: none;
+   }
+
+.roundPhoto{
+	border-radius: 10%;
+	height: 300px;
+   }
+
+
+.container{
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.textCard{
+	padding-left: 40px;
+	text-align: left;
+}
+
+#more{
+	display: none;
+}
+
+footer{
+	margin-top: 5%;
+	text-align: center;
+}
